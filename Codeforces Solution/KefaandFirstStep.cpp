@@ -22,6 +22,8 @@ int main() {
         else{
             c=1;
         }
+        //when in the increasing squence decreasing number is found count is reset to 1 so we are 
+        //storing count of increasing seq in max and printing max   
         if(c>max){
             max=c;
         }
