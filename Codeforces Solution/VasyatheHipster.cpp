@@ -6,8 +6,7 @@ int main()
     cin >> a >> b;
     if (a < b)
     {                  // Instead of using if and else to find min number we 
-                      //  can use int k=min(a,b) and can be used to directlty print alternate pairs.
-        al = a;
+        al = a;        //  can use int k=min(a,b) and can be used to directlty print alternate pairs.
         a = a - al;
         b = b - al;
     }
