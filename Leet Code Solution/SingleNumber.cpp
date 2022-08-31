@@ -19,3 +19,14 @@ public:
         return 0;
     }
 };
+            //Method 2
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int ans=0;
+        for(int i=0;i<nums.size();i++){
+            ans=ans^nums[i];            //a^a=0;
+        }                              //repeating elements are deleted so single     
+        return ans;                   //elements are returned         
+    }
+};
